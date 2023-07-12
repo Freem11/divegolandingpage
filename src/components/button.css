@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+
+.housing {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 150px;
+  background-color: black;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.call {
+  font-size: 11px;
+  font-weight: bolder;
+  font-family: "Hind", sans-serif;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 90px;
+  height: 15px;
+  text-align: left;
+  color: white;
+}
+
+.applestore {
+  font-size:18px;
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+  margin-left: 10px;
+  margin-top: -8px;
+  text-align: left;
+  color: white;
+}
+
+.googlestore {
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 8px;
+    margin-top: -5px;
+    text-align: left;
+    color: white;
+  }
+
+  .mantastore{
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 8px;
+    margin-top: -5px;
+    text-align: left;
+    color: white;
+  }
+
+.appleimg {
+  height: 50px;
+  width: 160px;
+}
+
+.googleimg {
+    height: 50px;
+    width: 160px;
+  }
+
+  .mantaimg{
+    height: 50px;
+    width: 160px;
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .housing {
+      display: flex;
+      flex-direction: row;
+      height: 30px;
+      width: 100px;
+      background-color: black;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      margin: 5px;
+    }
+  
+    .texts {
+      display: flex;
+      flex-direction: column;
+      height: 20px;
+      margin-left: 5px;
+      margin-top: -5px;
+    }
+
+.call {
+  font-size: 7px;
+  font-weight: bolder;
+  font-family: "Hind", sans-serif;
+  margin-left: 10px;
+  width: 90px;
+  text-align: left;
+}
+
+.applestore {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+  margin-left: 10px;
+  margin-top: -8px;
+  text-align: left;
+}
+
+.googlestore {
+  font-size: 10px;
+  font-weight: 900;
+  margin-left: 8px;
+  margin-top: -5px;
+  text-align: left;
+}
+
+.mantastore{
+  font-size: 10px;
+  font-weight: 900;
+  margin-left: 8px;
+  margin-top: -5px;
+  text-align: left;
+}
+
+.appleimg {
+  height: 40px;
+  width: 130px;
+}
+
+.googleimg {
+    height: 40px;
+    width: 130px;
+  }
+
+  .mantaimg{
+    height: 40px;
+    width: 130px;
+  }
+
+  .recruitimg{
+    height: 55px;
+  }
+  }

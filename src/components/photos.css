@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
+
+
+.wrapperdivAlt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.leftsideAlt{
+    color: #000;
+    align-items: left;
+    text-align: center;
+    min-width: 300px;
+}
+
+.childtext{
+    margin-top: -15px;
+}
+
+.rightsideAlt{
+    position: sticky;
+    top: 0;
+    color: #000;
+    width: 350px;
+    align-items: right;
+    text-align: right;
+    min-width: 300px;
+    padding-top: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-self: start;
+}
+
+.headertextAlt{
+    font-family: 'Overlock', cursive;
+    font-size: 22px;
+}
+
+.childtextAlt{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .wrapperdivAlt{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        min-width: auto;
+    }
+    
+    .leftsideAlt{
+        color: #000;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+
+    .headertextAlt{
+        font-size: 14px;
+        width: 80vw;
+        text-align: right;
+    }
+    
+    .childtextAlt{
+        margin-top: -15px;
+        font-size: 11px;
+        width: 80vw;
+    }
+    
+    .rightsideAlt{
+        position: relative;
+        top: 0;
+        color: #000;
+        /* width: 50vw; */
+        align-items: left;
+        text-align: right;
+        padding-top: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        /* align-self: start; */
+
+    }
+
+}

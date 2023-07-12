@@ -1,0 +1,95 @@
+.videobox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 750px;
+  margin-left: 0px;
+  border-radius: 50px;
+  z-index: 5;
+  margin-top: -0px;
+  /* padding-left: 40px; */
+  border-radius: 15px;
+  overflow: hidden;
+  /* background-color: tr; */
+
+}
+
+.mainvideo {
+  height: 715px;
+  width: 400px;
+  z-index: -1;
+  /* margin-left: -90px; */
+  padding-left: -50px;
+  margin-top: 0px;
+  background-color: blue;
+  border-radius: 55px;
+  overflow: hidden;
+  background-color: blueviolet;
+  scroll-snap-type: mandatory;
+}
+
+.phoneskin {
+  height: 750px;
+  width: 368px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  /* background-color: orange; */
+}
+
+.blackout{
+  background-color: black;
+  width:290px;
+  height: 5px;
+  z-index: 2;
+  margin-top: 6px;
+  margin-left: -25px;
+}
+
+@media only screen and (max-width: 880px) {
+  .videobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .videobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .mainvideo {
+    height: 260px;
+    width: 200px;
+    z-index: 0;
+    border-radius: 35px;
+  }
+
+  .phoneskin {
+    height: 390px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 3;
+
+  }
+
+  .blackout{
+    background-color: black;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+    
+  }
+}

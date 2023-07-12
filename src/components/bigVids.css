@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
+
+.react-player video {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+}
+.vidbox{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.boxforvideo{
+    width: 642px;
+}
+
+.bigvidlabels{
+    width: 100%;
+    font-size: calc(2px + 2.5vw);
+    font-family: 'Overlock', cursive;
+    color: #000;
+    margin-left: -3%;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .vidbox{
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxforvideo{
+        width: 280px;
+    }
+
+    .bigvidlabels{
+        width: 100%;
+        font-size: 14px;
+        font-family: 'Overlock', cursive;
+        font-size: 20px;
+        color: #000;
+        margin-left: 20px;
+    }
+
+}

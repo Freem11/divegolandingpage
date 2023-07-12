@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
+
+.headLineBox{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: calc(20px + 3.5vw);
+    font-family: 'Overlock', cursive;
+    color: white;
+    line-height: 1em;
+    margin-top: 200px;
+    z-index: 2;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .headLineBox{
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Overlock', cursive;
+        line-height: 1em;
+        margin-top: 200px;
+        width: 80vw;
+        margin-bottom: 35px;
+    
+    }
+
+
+}
