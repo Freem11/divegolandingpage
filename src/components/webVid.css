@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
+
+.compbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 800px;
+}
+
+
+
+.ctaDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.comptext{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Overlock', cursive;
+    font-size: 18px;
+    max-width: 40%;
+}
+
+.textBox{
+    text-align: center;
+}
+
+.compskin{
+    height: 700px;
+    margin: 50px;
+    margin-top: -150px;
+
+}
+
+.vidsizes{
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    margin-top: -720px;
+    margin-left: 57px;
+  }
+
+
+
+@media only screen and (max-width: 1700px) {
+
+    .compskin{
+        height: 525px;
+        margin-top: -50px;
+    }
+
+    .vidsizes{
+        margin-top: -555px;
+        margin-left: 70px;
+      }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .compskin{
+        height: 350px;
+        margin: 0px;
+        margin-top: -100px;
+        margin-bottom: 250px;
+    }
+
+    .vidsizes{
+        margin-top: -600px;
+        margin-left: 10px;
+      }
+
+      .separator{
+          margin-top: 100px;
+          margin-bottom: 100px;
+      }
+
+      .comptext{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        /* justify-items: center; */
+        /* justify-content: center; */
+        margin: 0px;
+        font-family: 'Overlock', cursive;
+        font-size: 18px;
+        max-width: 100%;
+        background-color: pink;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+
+    .compskin{
+        height: 350px;
+        /* width: 425px; */
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .compskin{
+        height: 350px;
+        /* width: 425px; */
+    }
+
+    .compbox{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        height: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .compskin{
+        height: 200px;
+        /* width: 425px; */
+    }
+
+    .comptext{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: -150px;
+        font-family: 'Overlock', cursive;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .textBox{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .vidsizes{
+        margin-top: -455px;
+        margin-left: 10px;
+      }
+
+}

@@ -53,8 +53,6 @@ function VideoPlayer() {
           className="mainvideo"
           style={{ zIndex: -1 }}
         />
-      {/* </div> */}
-      {/* <div className="blackout"></div> */}
     </div>
   );
 }

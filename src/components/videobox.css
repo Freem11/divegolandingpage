@@ -23,10 +23,10 @@
   /* margin-left: -90px; */
   padding-left: -50px;
   margin-top: 0px;
-  background-color: blue;
+  background-color: #538bdb;
   border-radius: 55px;
   overflow: hidden;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   scroll-snap-type: mandatory;
 }
 
