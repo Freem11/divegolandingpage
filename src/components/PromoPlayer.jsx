@@ -31,7 +31,7 @@ function PromoPlayer() {
       url = "https://youtu.be/xwr6t4mmncc"
       width={vidDimensions.widthVal}
       height={vidDimensions.heightVal}
-      controls="true"
+      controls={true}
       style={{ overflow: 'hidden', borderRadius: "15px" }}
        />
     </div>

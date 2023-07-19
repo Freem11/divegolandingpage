@@ -56,8 +56,8 @@ function WebVidPlayer() {
       <img src={compSkin} className="compskin"></img>
       <ReactPlayer
         url="https://youtu.be/wOvgyxoJADc"
-        width={Widthy}
-        height={Heighty}
+        width={vidWidth}
+        height={vidHeigth}
         controls={false}
         muted={true}
         playing={true}

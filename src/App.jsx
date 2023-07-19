@@ -30,8 +30,8 @@ if (screenInital < 501) {
   heroHeigth = 1000;
   heroWidth = 1000 * (16 / 9);
 } else if (screenInital < 1749) {
-  heroHeigth = 1000;
-  heroWidth = 1000 * (16 / 9);
+  heroHeigth = 1200;
+  heroWidth = 1200 * (16 / 9);
 } else {
   heroHeigth = 1500;
   heroWidth = 1500 * (16 / 9);
@@ -54,11 +54,11 @@ function App() {
       Heighty = 700;
       Widthy = 700 * (16 / 9);
     } else if (window.innerWidth < 1399) {
-      Heighty = 1000;
-      Widthy = 1000 * (16 / 9);
+      Heighty = 1200;
+      Widthy = 1200 * (16 / 9);
     } else if (window.innerWidth < 1749) {
-      Heighty = 1000;
-      Widthy = 1000 * (16 / 9);
+      Heighty = 1200;
+      Widthy = 1200 * (16 / 9);
     } else {
       Heighty = 1500;
       Widthy = 1500 * (16 / 9);

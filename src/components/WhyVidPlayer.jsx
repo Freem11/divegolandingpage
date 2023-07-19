@@ -30,7 +30,7 @@ function WhyVidPlayer() {
         url="https://youtu.be/hIes4aRm_TI"
         width={vidDimensions.widthVal}
         height={vidDimensions.heightVal}
-        controls="true"
+        controls={true}
         style={{ overflow: 'hidden', borderRadius: "15px" }}
       />
     </div>
