@@ -4,9 +4,8 @@ import googlelogo from "../images/GoogleCTA.png";
 
 export default function GoogleCTAButton() {
   return (
-    <a href='https://play.google.com/store/apps/details?id=com.DiveGo'>
+    <a href='https://play.google.com/store/apps/details?id=com.freem11.divegomobile'>
       <img src={googlelogo} className="googleimg"></img>
     </a>
   );
 }
-

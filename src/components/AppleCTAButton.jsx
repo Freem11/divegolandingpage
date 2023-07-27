@@ -4,9 +4,8 @@ import applelogo from "../images/AppleCTA.png";
 
 export default function AppleCTAButton() {
   return (
-    <a href='https://apps.apple.com/ca/app/divego/id6443680026'>
+    <a href='https://apps.apple.com/us/app/divego/id6450968950'>
       <img src={applelogo} className="appleimg"></img>
     </a>
   );
 }
-
