@@ -226,17 +226,32 @@ body {
 		max-height: 700px;
 		max-width: 100%;
 		min-width: 100%;
-		margin-top: -180px;
+		margin-top: -220px;
+		margin-bottom: 40px;
 	}
 	.rightTop {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		width: 100vw;
-		margin-top: -150px;
+		margin-top: -167px;
 		min-height: auto;
 		justify-content: center;
 		text-align: center;
+	}
+
+	.webshowsection {
+		position: relative;
+		display: flex;
+		/* flex-wrap: wrap; */
+		/* flex-direction: row; */
+		width: 100vw;
+		height: 680px;
+		background-color: #538dbd;
+		align-items: center;
+		justify-content: center;
+		z-index: 0;
+		/* position: static; */
 	}
 
 	.joinusT {
