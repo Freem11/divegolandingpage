@@ -7,6 +7,7 @@
     justify-self: center;
     border-radius: 15px;
     margin: 30px;
+    background-color: "green";
 }
 
 .workahole{
@@ -17,6 +18,22 @@
 .tutvideo{
     border-radius: 10px;
     overflow: hidden;
+}
+
+.emilioBox {
+    width: 200%;
+    height: 200%;
+    margin-top: -50%;
+}
+
+@media only screen and (min-width: 800px) {
+    .emilioBox {
+        width: 200%;
+        height: 200%;
+        margin-top: -50%;
+        margin-right: 100%;
+        background-color: green;
+    } 
 }
 
 @media only screen and (max-width: 500px) {
@@ -35,4 +52,12 @@
         height: 275px;
         border-radius: 10px;
     }
+
+    .emilioBox {
+        width: 100%;
+        height: 100%;
+        margin-top: -30%;
+        margin-bottom: -30%;
+    }
+    
 }
