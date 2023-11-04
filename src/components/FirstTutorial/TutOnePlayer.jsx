@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
-import "../miniplayer.css";
+import "../emilio.css";
 import seaLionGuy from "../../images/EmilioNeutral.png";
 
 let screenInital = window.innerWidth;

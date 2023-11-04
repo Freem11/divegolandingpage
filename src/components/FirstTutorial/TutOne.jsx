@@ -1,5 +1,5 @@
 import React from 'react'
-import "../emilio.css";
+import "../emilioplayer.css";
 import TutOnePlayer from "./TutOnePlayer";
 
 
