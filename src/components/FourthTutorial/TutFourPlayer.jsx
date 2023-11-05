@@ -41,7 +41,7 @@ function TutFourPlayer() {
             url="https://youtu.be/6wz4veGTkP8"
             width={vidWidth}
             height={vidHeigth}
-            controls={false}
+            controls={true}
             muted={true}
             playing={true}
             loop={true}

@@ -41,7 +41,7 @@ function TutThreePlayer() {
             url="https://youtu.be/OsD_6MVcXI4"
             width={vidWidth}
             height={vidHeigth}
-            controls={false}
+            controls={true}
             muted={true}
             playing={true}
             loop={true}

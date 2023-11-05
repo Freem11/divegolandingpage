@@ -41,7 +41,7 @@ function TutTwoPlayer() {
             url="https://youtu.be/4uwmVln3O6U"
             width={vidWidth}
             height={vidHeigth}
-            controls={false}
+            controls={true}
             muted={true}
             playing={true}
             loop={true}
