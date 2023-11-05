@@ -1,0 +1,125 @@
+
+.wrapperdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.leftside{
+    position: sticky;
+    top: 0;
+    color: #000;
+    width: 40%;
+    min-width: 300px;
+    padding-top: 25px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    /* background-color: purple; */
+    align-self: start;
+}
+
+.childtext{
+    margin-top: -15px;
+}
+
+.rightside{
+    display: flex;
+    color: #000;
+    width: 350px;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: flex-end;
+    min-width: 300px;
+
+}
+
+.headertext{
+    font-family: 'Overlock', cursive;
+    font-size: 30px;
+}
+
+.childtext{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 22px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .leftside{
+        position: sticky;
+        top: 0;
+        color: #000;
+        width: 40%;
+        min-width: 300px;
+        padding-top: 25px;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        /* background-color: purple; */
+    
+}
+};
+
+@media only screen and (max-width: 800px) {
+
+    .leftside{
+        position: relative;
+        color: #000;
+        align-items: center;
+        text-align: center;
+        max-width: 350px;
+        height: 100px;
+        margin-top: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .wrapperdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+    }
+    
+    .leftside{
+        position: relative;
+        color: #000;
+        align-items: center;
+        text-align: center;
+        max-width: 350px;
+        height: 100px;
+    }
+
+    .headertext{
+        font-size: 18px;
+        width: 80vw;
+        text-align: left;
+    }
+    
+    .childtext{
+        margin-top: -15px;
+        font-size: 14px;
+        width: 80vw;
+        max-width: 350px;
+        text-align: left;
+    }
+    
+    .rightside{
+        position: relative;
+        top: 0;
+        color: #000;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        /* padding-top: -25px; */
+    }
+
+}

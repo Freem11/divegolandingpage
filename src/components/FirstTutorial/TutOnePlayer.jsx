@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
-import "../miniplayer.css";
+import "../emilio.css";
+import seaLionGuy from "../../images/EmilioNeutral.png";
 
 let screenInital = window.innerWidth;
 let heroWidth
@@ -38,19 +39,13 @@ function TutOnePlayer() {
 
   return (
     <div className="videoboxMini">
-         <ReactPlayer
-            url="https://youtube.com/shorts/iD3R0kjpZzg?feature=share"
-            width={vidWidth}
-            height={vidHeigth}
-            controls={false}
-            muted={true}
-            playing={true}
-            loop={true}
-            playsinline={true}
-            className="tutvideo"
-          />
+       <img src={seaLionGuy} className="emilioBox"></img>
     </div>
   );
 }
+
+// Intro: https://youtu.be/4uwmVln3O6U
+// Dive sites: https://youtu.be/OsD_6MVcXI4
+// Photos: https://youtu.be/6wz4veGTkP8
 
 export default TutOnePlayer;

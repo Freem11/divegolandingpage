@@ -10,8 +10,10 @@ function TutFour() {
             </div>
 
             <div className="rightsideAlt">
-            <h4 className="headertextAlt">Cruising The Sites</h4>
-                <p className="childtextAlt">Tap the blue anchors to see whats been seen on any site, use the picture carrousel at the top to look for only the creatures you want and that's all you'll see</p>
+            <h4 className="headertextAlt">Contribute your sea creatures sightings to DiveGo</h4>
+                <p className="childtextAlt">
+                    In the 3rd Guide Emilio completes your walkthrough with a run through of how you can add your sea creature sighting photos to DiveGo! Additionally he will point out some of the handy build in features to make it even easier! 
+                </p>
 
             </div>
             

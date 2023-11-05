@@ -113,7 +113,7 @@ function App() {
           <TutTwo />
           <TutThree />
           <TutFour />
-          <TutFive />
+          {/* <TutFive /> */}
         </div>
 
         <div className="bottomsection">

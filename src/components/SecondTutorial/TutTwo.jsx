@@ -10,10 +10,9 @@ function TutTwo() {
       </div>
 
       <div className="rightsideAlt">
-        <h4 className="headertextAlt">Add Your Own Animal Sightings</h4>
+        <h4 className="headertextAlt">Introductory Guide</h4>
         <p className="childtextAlt">
-          Upload your animal sightings via photos and the system will catch the
-          date and location it was taken
+          Meet Emilio the sea lion, your guide to DiveGo, in this guide he shows you the basics of getting around DiveGo's map and explores the dive sites
         </p>
       </div>
     </div>

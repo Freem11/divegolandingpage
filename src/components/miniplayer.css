@@ -7,17 +7,20 @@
     justify-self: center;
     border-radius: 15px;
     margin: 30px;
+    /* background-color: green; */
 }
 
 .workahole{
     height: 400px;
     border-radius: 10px;
+    background-color: plum;
 }
 
 .tutvideo{
     border-radius: 10px;
     overflow: hidden;
 }
+
 
 @media only screen and (max-width: 500px) {
 
@@ -35,4 +38,5 @@
         height: 275px;
         border-radius: 10px;
     }
+    
 }
