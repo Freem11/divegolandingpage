@@ -6,8 +6,8 @@ let screenInital = window.innerWidth;
 let heroWidth
 let heroHeigth
 if (screenInital < 501) {
-  heroHeigth = 270;
-  heroWidth = 150;
+  heroHeigth = 350;
+  heroWidth = 200;
 }else {
   heroHeigth = 400;
   heroWidth = 224;
