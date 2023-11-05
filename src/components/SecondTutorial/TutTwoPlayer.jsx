@@ -25,8 +25,8 @@ function TutTwoPlayer() {
 
   function trackWidth() {
     if (window.innerWidth < 501) {
-      Heighty = 270;
-      Widthy = 150;
+      Heighty = 350;
+      Widthy = 200;
     } else {
       Heighty = 400;
       Widthy = 224;
