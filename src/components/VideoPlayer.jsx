@@ -7,8 +7,8 @@ let screenInital = window.innerWidth;
 let heroWidth;
 let heroHeigth;
 if (screenInital < 501) {
-  heroHeigth = 375;
-  heroWidth = 200;
+  heroHeigth = 500;
+  heroWidth = 245;
 } else {
   heroHeigth = 715;
   heroWidth = 400;
@@ -25,8 +25,8 @@ function VideoPlayer() {
 
   function trackWidth() {
     if (window.innerWidth < 501) {
-      Heighty = 375;
-      Widthy = 200;
+      Heighty = 500;
+      Widthy = 245;
     } else {
       Heighty = 715;
       Widthy = 400;

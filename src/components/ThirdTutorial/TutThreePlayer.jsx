@@ -6,8 +6,8 @@ let screenInital = window.innerWidth;
 let heroWidth
 let heroHeigth
 if (screenInital < 501) {
-  heroHeigth = 350;
-  heroWidth = 200;
+  heroHeigth = 550;
+  heroWidth = 350;
 }else {
   heroHeigth = 400;
   heroWidth = 224;
@@ -25,8 +25,8 @@ function TutThreePlayer() {
 
   function trackWidth() {
     if (window.innerWidth < 501) {
-      Heighty = 350;
-      Widthy = 200;
+      Heighty = 550;
+      Widthy = 350;
     } else {
       Heighty = 400;
       Widthy = 224;

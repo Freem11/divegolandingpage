@@ -59,6 +59,15 @@
     margin-right: 0px;
     padding-left: 0px;
   }
+
+  .phoneskin {
+    height: 750px;
+    width: 368px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* background-color: orange; */
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -66,9 +75,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -90%;
+    margin-top: -50%;
+    /* margin-bottom: 50%; */
     margin-left: 0px;
     padding-left: 0px;
+    /* background-color: pink; */
+    position: relative;
   }
 
   .mainvideo {
@@ -79,11 +91,12 @@
   }
 
   .phoneskin {
-    height: 390px;
-    width: 200px;
+    height: 510px;
+    width: 255px;
     margin-top: 0px;
     margin-left: 0px;
     z-index: 3;
+    position: absolute;
 
   }
 

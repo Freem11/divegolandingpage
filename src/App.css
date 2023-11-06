@@ -243,8 +243,7 @@ body {
 	.webshowsection {
 		position: relative;
 		display: flex;
-		/* flex-wrap: wrap; */
-		/* flex-direction: row; */
+		margin-top: 170px;
 		width: 100vw;
 		height: 680px;
 		background-color: #538dbd;
