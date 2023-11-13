@@ -7,7 +7,7 @@ function Logo() {
     <div className="logocontainer">
       <img src={Manta} className="mantalogo"></img>
       <h2 className="logoname">
-        DiveGo
+        Scuba SEAsons
       </h2>
 
       <div className="buttonstyler" onClick={() => window.location = 'mailto:DiveGo2022@gmail.com'}>

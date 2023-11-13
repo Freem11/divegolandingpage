@@ -1,5 +1,5 @@
 # DiveGoLanding
-A Landing Page For DiveGo
+A Landing Page For Scuba SEAsons
 Fully repsonsive for web, tablet and mobile screens
 
 # Live at : 

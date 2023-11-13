@@ -73,7 +73,7 @@ function WebVidPlayer() {
           encounter.
         </h3>
         <h3 className="textBox">
-          DiveGo strives to achieve that dream on every dive by enabling divers
+          Scuba SEAsons strives to achieve that dream on every dive by enabling divers
           to discover what time of year is the best to dive with any sea
           creature anywhere in the world.
         </h3>
