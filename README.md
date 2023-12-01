@@ -1,4 +1,4 @@
-# DiveGoLanding
+# Scuba SEAsons Page
 A Landing Page For Scuba SEAsons
 Fully repsonsive for web, tablet and mobile screens
 
