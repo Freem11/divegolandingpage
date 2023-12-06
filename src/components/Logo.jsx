@@ -10,7 +10,7 @@ function Logo() {
         Scuba SEAsons
       </h2>
 
-      <div className="buttonstyler" onClick={() => window.location = 'mailto:DiveGo2022@gmail.com'}>
+      <div className="buttonstyler" onClick={() => window.location = 'mailto:scubaseasons@gmail.com'}>
         Contact Us
       </div> 
     </div>
