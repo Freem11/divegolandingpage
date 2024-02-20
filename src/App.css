@@ -62,7 +62,7 @@ body {
 	/* flex-wrap: wrap; */
 	/* flex-direction: row; */
 	width: 100vw;
-	/* height: 10%; */
+	height: 60vw;
 	background-color: #538dbd;
 	align-items: center;
 	justify-content: center;
@@ -243,10 +243,10 @@ body {
 	.webshowsection {
 		position: relative;
 		display: flex;
-		margin-top: 170px;
+		margin-top: 270px;
 		width: 100vw;
-		height: 680px;
-		background-color: #538dbd;
+		height: 40vh;
+		background-color: #538bdb;
 		align-items: center;
 		justify-content: center;
 		z-index: 0;

@@ -100,7 +100,9 @@ function App() {
         </div>
 
         <div className="webshowsection">
-          <WebVidPlayer />
+          <iframe frameBorder="0" style={{width: "80%", height: "50vw", borderRadius: "1%"}} src="https://scubaseasons.netlify.app/">
+          </iframe>
+          {/* <WebVidPlayer /> */}
         </div>
 
         <div className="whyvideosection">
