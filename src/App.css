@@ -243,6 +243,7 @@ body {
 	.webshowsection {
 		position: relative;
 		display: flex;
+		flex-direction: column;
 		margin-top: 270px;
 		width: 100vw;
 		height: 40vh;

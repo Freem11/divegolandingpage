@@ -99,8 +99,11 @@ function App() {
           </div>
         </div>
 
-        <div className="webshowsection">
-          <iframe frameBorder="0" style={{width: "80%", height: "50vw", borderRadius: "1%"}} src="https://scubaseasons.netlify.app/">
+        <div className="webshowsection" style={{display: "flex", flexDirection: 'column'}}>
+        <h2 style={{ fontFamily: "Overlock, cursive", marginBottom: "2vh", fontSize: '3vw' }}>
+            Try Scuba SEASons! (Web Version) 
+          </h2>
+          <iframe frameBorder="0" style={{width: "80%", height: "50vw", borderRadius: "1%", marginBottom: '2vh'}} src="https://scubaseasons.netlify.app/">
           </iframe>
           {/* <WebVidPlayer /> */}
         </div>
