@@ -11,7 +11,7 @@ if (screenInital < 501) {
   heroWidth = 245;
 } else {
   heroHeigth = 730;
-  heroWidth = 400;
+  heroWidth = 380;
 }
 
 let Heighty;
@@ -29,7 +29,7 @@ function VideoPlayer() {
       Widthy = 245;
     } else {
       Heighty = 730;
-      Widthy = 400;
+      Widthy = 380;
     }
     setVidHeigth(Heighty);
     setVidWidth(Widthy);
@@ -37,24 +37,19 @@ function VideoPlayer() {
 
   return (
     <div className="videobox">
-      <img
-        src={phoneCase}
-        className="phoneskin"
-      ></img>
-
-      {/* <video scr={`https://youtu.be/cmM3XcJ78VM`} autoPlay loop muted className="mainvideo"/> */}
-        <ReactPlayer
-          url="https://youtu.be/SgmJ1qOSpjk"
-          width={vidWidth}
-          height={vidHeigth}
-          controls={false}
-          muted={true}
-          playing={true}
-          loop={true}
-          playsinline={false}
-          className="mainvideo"
-          style={{ objectFit: "cover", borderRadius: 50 }}
-        />
+      <img src={phoneCase} className="phoneskin"></img>
+      <ReactPlayer
+        url="https://youtu.be/rUGFT49d5wU"
+        width={vidWidth}
+        height={vidHeigth}
+        controls={false}
+        muted={true}
+        playing={true}
+        loop={true}
+        playsinline={false}
+        className="mainvideo"
+        style={{ objectFit: "cover", borderRadius: 60 }}
+      />
     </div>
   );
 }

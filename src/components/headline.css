@@ -12,7 +12,6 @@
     font-family: 'Overlock', cursive;
     color: white;
     line-height: 1em;
-    margin-top: 200px;
     z-index: 2;
 
 }
@@ -28,7 +27,6 @@
         font-size: 28px;
         font-family: 'Overlock', cursive;
         line-height: 1em;
-        margin-top: 200px;
         width: 80vw;
         margin-bottom: 35px;
     

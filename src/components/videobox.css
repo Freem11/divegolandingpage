@@ -3,13 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 750px;
+  width: 348px;
+  height: 740px;
   margin-left: 0px;
-  border-radius: 60px;
+  border-radius: 0px;
   z-index: 5;
   overflow: hidden;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 .mainvideo {
@@ -20,11 +20,13 @@
   border-radius: 10px;
   overflow: hidden;
   object-fit: contain;
+  background-color: pink;
 }
 
 .phoneskin {
-  height: 750px;
-  width: 368px;
+  width: 355px;
+  height: 740px;
+  z-index: 10;
   position: absolute;
   margin-left: 0px;
   margin-top: 0px;

@@ -12,48 +12,51 @@ body {
 }
 
 .mainherovideo {
-	position: absolute;
-	top: 45;
 	z-index: 0;
+	position: absolute;
 	object-fit: cover;
-	margin-top: -200px;
+	width: 100%;
+	height: 100%;
 }
 
 .topsection {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	align-items: center;
+	justify-content: center;
+	/* flex-wrap: wrap; */
 	background-color: black;
-	width: 100vw;
-	/* height: 800px; */
-	z-index: 0;
-	margin-top: 45px;
-	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin-top: 40px;
 }
 
 .leftTop {
+	position: absolute;
+	left: 0;
 	display: flex;
 	flex-direction: column;
-	max-width: 450px;
-	min-width: 400px;
-	height: 800px;
+	width: 50%;
+	height: 100vh;
 	align-items: center;
 	justify-content: center;
 	padding-right: 0%;
 	z-index: 1;
-	margin-top: -100px;
+	/* background-color: pink; */
 }
 
 .rightTop {
+	position: absolute;
+	left: 50vw;
 	display: flex;
 	flex-direction: column;
-	max-width: 500px;
-	min-width: 420px;
+	height: 100vh;
+	width: 50%;
 	align-items: center;
 	justify-content: center;
 	padding-right: 0%;
 	z-index: 1;
 	margin-top: 0px;
+	/* background-color: powderblue; */
 }
 
 .webshowsection {
@@ -86,14 +89,13 @@ body {
 /* Large desktop styles */
 @media only screen and (min-width: 1750px) {
 
-	.mainherovideo {
+	 /* .mainherovideo {
 		margin-top: -200px;
 	}
 
 	.topsection {
-		justify-content: center;
-		height: 1000px;
-	}
+		flex-direction: column;
+	}  */
 
 	.leftTop {
 		max-width: 40%;
@@ -119,8 +121,7 @@ body {
 	} */
 
 	.topsection {
-		height: 1300px;
-		background-color: #add8e6;
+		flex-direction: row;
 	}
 
 	.leftTop {
@@ -196,7 +197,7 @@ body {
 		max-width: 100vw !important;
 	}
 
-	.topsection {
+	/* .topsection {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -216,7 +217,7 @@ body {
 		min-height: 430px;
 		margin-top: 0px;
 		margin-left: 20%;
-	}
+	} */
 
 	.leftTop {
 		display: flex;
