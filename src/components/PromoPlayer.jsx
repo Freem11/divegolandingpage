@@ -26,7 +26,7 @@ function PromoPlayer() {
 
   return (
     <div className="vidbox">
-      <h3 className="bigvidlabels">What is DiveGo for?</h3>
+      <h3 className="bigvidlabels">What is Scuba SEAsons (formerly DiveGo) for?</h3>
       <ReactPlayer
       url = "https://youtu.be/xwr6t4mmncc"
       width={vidDimensions.widthVal}

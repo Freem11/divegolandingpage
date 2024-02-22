@@ -3,108 +3,77 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 360px;
-  height: 750px;
+  width: 32vh;
+  height: 67vh;
   margin-left: 0px;
-  border-radius: 50px;
+  border-radius: 20vh;
   z-index: 5;
-  margin-top: -0px;
-  /* padding-left: 40px; */
-  border-radius: 15px;
-  overflow: hidden;
-  /* background-color: tr; */
-  margin: 50px;
+  background-color: purple;
+  /* overflow: hidden; */
+  /* margin: 50px; */
+}
 
+.headervideo{
+  height: 98%;
+  width: 93%;
+  object-fit: cover;
+  border-radius: 4vh;
 }
 
 .mainvideo {
-  height: 715px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   z-index: -1;
-  /* margin-left: -90px; */
-  padding-left: -50px;
   margin-top: 0px;
-  background-color: #538bdb;
-  border-radius: 55px;
+  border-radius: 5vh;
   overflow: hidden;
-  /* background-color: blueviolet; */
-  scroll-snap-type: mandatory;
+  object-fit: contain;
+  background-color: pink;
 }
 
 .phoneskin {
-  height: 750px;
-  width: 368px;
+  /* width: 355px; */
+  height: 68vh;
+  z-index: 10;
   position: absolute;
   margin-left: 0px;
   margin-top: 0px;
   /* background-color: orange; */
 }
 
-.blackout{
+.blackout {
   background-color: black;
-  width:290px;
+  width: 290px;
   height: 5px;
   z-index: 2;
   margin-top: 6px;
   margin-left: -25px;
 }
 
-@media only screen and (max-width: 880px) {
-  .videobox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40%;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-  }
-
-  .phoneskin {
-    height: 750px;
-    width: 368px;
-    position: absolute;
-    margin-left: 0px;
-    margin-top: 0px;
-    /* background-color: orange; */
-  }
-}
 
 @media only screen and (max-width: 500px) {
-  .videobox {
+  /* .videobox {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -50%;
-    /* margin-bottom: 50%; */
-    margin-left: 0px;
-    padding-left: 0px;
-    /* background-color: pink; */
+    margin-top: -25%;
+    border-radius: 60px;
+    z-index: 5;
+    overflow: hidden;
     position: relative;
   }
+*/
 
-  .mainvideo {
-    height: 260px;
-    width: 200px;
-    z-index: 0;
-    border-radius: 35px;
-  }
+  /* .phoneskin {
+    margin-top: -2%;
+    margin-bottom: -10%;
 
-  .phoneskin {
-    height: 510px;
-    width: 255px;
-    margin-top: 0px;
-    margin-left: 0px;
-    z-index: 3;
-    position: absolute;
+  }  */
 
-  }
-
-  .blackout{
+  .blackout {
     background-color: black;
     width: 0px;
     height: 0px;
     z-index: 2;
-    
   }
 }

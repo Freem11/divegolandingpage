@@ -24,7 +24,7 @@ function WhyVidPlayer() {
 
   return (
     <div className="vidbox">
-      <h3 className="bigvidlabels">About Us & DiveGo</h3>
+      <h3 className="bigvidlabels">About Us & Scuba SEAsons (previously DiveGo)</h3>
 
       <ReactPlayer
         url="https://youtu.be/hIes4aRm_TI"

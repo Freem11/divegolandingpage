@@ -10,7 +10,7 @@ function TutOne() {
             <div className="leftside">
                 <h4 className="headertext">Meet Emilio!</h4>
                 <p className="childtext">
-                    Say hello to Emilio the Sea Lion! He serves as DiveGo's main guide to help users learn how to use DiveGo. He is looking forward to meeting you!
+                    Say hello to Emilio the Sea Lion! He serves as Scuba SEAsons' main guide to help users learn how to use Scuba SEAsons. He is looking forward to meeting you!
                 </p>
             </div>
 

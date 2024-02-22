@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import "./videobox.css";
 import phoneCase from "../images/iPhone14Skin.png";
+import headlinerVid from "../images/headlinerVideo.mp4";
 
 let screenInital = window.innerWidth;
 let heroWidth;
@@ -10,8 +11,8 @@ if (screenInital < 501) {
   heroHeigth = 500;
   heroWidth = 245;
 } else {
-  heroHeigth = 715;
-  heroWidth = 400;
+  heroHeigth = 730;
+  heroWidth = 380;
 }
 
 let Heighty;
@@ -28,8 +29,8 @@ function VideoPlayer() {
       Heighty = 500;
       Widthy = 245;
     } else {
-      Heighty = 715;
-      Widthy = 400;
+      Heighty = 730;
+      Widthy = 380;
     }
     setVidHeigth(Heighty);
     setVidWidth(Widthy);
@@ -37,22 +38,21 @@ function VideoPlayer() {
 
   return (
     <div className="videobox">
-      <img
-        src={phoneCase}
-        className="phoneskin"
-      ></img>
-        <ReactPlayer
-          url="https://youtu.be/81aJrDCiY6o"
-          width={vidWidth}
-          height={vidHeigth}
-          controls={false}
-          muted={true}
-          playing={true}
-          loop={true}
-          playsinline={false}
-          className="mainvideo"
-          style={{ zIndex: -1 }}
-        />
+      <img src={phoneCase} className="phoneskin"></img>
+      <video src={headlinerVid} className="headervideo" autoPlay loop muted/>
+     
+      {/* <ReactPlayer
+        url="https://youtu.be/rUGFT49d5wU"
+        width={vidWidth}
+        height={vidHeigth}
+        controls={false}
+        muted={true}
+        playing={true}
+        loop={true}
+        playsinline={false}
+        className="mainvideo"
+        style={{ objectFit: "cover", borderRadius: 60 }}
+      /> */}
     </div>
   );
 }
