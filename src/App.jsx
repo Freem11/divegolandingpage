@@ -13,9 +13,10 @@ import CallToActionsB from "./components/callToActionsB";
 import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
 import WebVidPlayer from "./components/WebVidPlayer";
-// import heroVid from "https://youtu.be/ytdBFpVxYrA";
+import heroVid from "./images/heroCompressed.mp4";
 import "./App.css";
 import ReactPlayer from "react-player/youtube";
+
 
 let screenInital = window.innerWidth;
 let heigthTrack = window.innerHeight
@@ -81,7 +82,8 @@ function App() {
           {/* src="https://www.youtube.com/embed/M7lc1UVf-VE?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=M7lc1UVf-VE" */}
         {/* </iframe> */}
 
-          <ReactPlayer
+        <video src={heroVid} className="mainherovideo" autoPlay loop muted/>
+     {/* <ReactPlayer
             url="https://youtu.be/ytdBFpVxYrA"
             width={vidWidth}
             height={vidHeigth}
@@ -91,7 +93,7 @@ function App() {
             loop={true}
             playsinline={true}
             className="mainherovideo"
-          />
+          /> */}
          
           <div className="switchBox">
           <div className="leftTop">
