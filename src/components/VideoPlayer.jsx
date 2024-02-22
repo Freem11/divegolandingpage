@@ -39,7 +39,7 @@ function VideoPlayer() {
   return (
     <div className="videobox">
       <img src={phoneCase} className="phoneskin"></img>
-      <video src={headlinerVid} className="headervideo" autoPlay loop muted/>
+      <video src={headlinerVid} className="headervideo" autoPlay loop muted playsInline/>
      
       {/* <ReactPlayer
         url="https://youtu.be/rUGFT49d5wU"

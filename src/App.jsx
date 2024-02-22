@@ -75,7 +75,7 @@ function App() {
         <Logo />
 
         <div className="topsection">
-          <video src={heroVid} className="mainherovideo" autoPlay loop muted/>
+          <video src={heroVid} className="mainherovideo" autoPlay loop muted playsInline/>
         </div>
 
         <div className="switchBox">

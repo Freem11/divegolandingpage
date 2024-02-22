@@ -20,6 +20,10 @@
   border-radius: 4vh;
 }
 
+/* .headervideo::-webkit-media-controls{
+  display: none;
+} */
+
 .mainvideo {
   height: 100%;
   width: 100%;
