@@ -18,6 +18,7 @@ import "./App.css";
 import ReactPlayer from "react-player/youtube";
 
 let screenInital = window.innerWidth;
+let heigthTrack = window.innerHeight
 let heroWidth;
 let heroHeigth;
 if (screenInital < 501) {
@@ -36,7 +37,7 @@ if (screenInital < 501) {
   heroHeigth = 1500;
   heroWidth = 1500 * (16 / 9);
 }
-
+console.log(screenInital)
 let Heighty;
 let Widthy;
 
@@ -73,6 +74,13 @@ function App() {
         <Logo />
 
         <div className="topsection">
+        {/* <iframe   className="mainherovideo"
+        title='Youtube player'
+        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+        src={`https://youtube.com/embed/ytdBFpVxYrA?autoplay=1&mute=1&loop=1&playlist=ytdBFpVxYrA`}>
+          {/* src="https://www.youtube.com/embed/M7lc1UVf-VE?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=M7lc1UVf-VE" */}
+        {/* </iframe> */}
+
           <ReactPlayer
             url="https://youtu.be/ytdBFpVxYrA"
             width={vidWidth}
@@ -84,7 +92,8 @@ function App() {
             playsinline={true}
             className="mainherovideo"
           />
-
+         
+          <div className="switchBox">
           <div className="leftTop">
             <HeadLine />
             <SubTitle />
@@ -97,6 +106,7 @@ function App() {
           <div className="rightTop">
             <VideoPlayer />
           </div>
+        </div>
         </div>
 
         <div className="webshowsection" style={{display: "flex", flexDirection: 'column'}}>

@@ -42,26 +42,6 @@
   margin-left: -25px;
 }
 
-@media only screen and (max-width: 880px) {
-  .videobox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40%;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-  }
-
-  .phoneskin {
-    height: 750px;
-    width: 368px;
-    position: absolute;
-    margin-left: 0px;
-    margin-top: 0px;
-    /* background-color: orange; */
-  }
-}
 
 @media only screen and (max-width: 500px) {
   .videobox {

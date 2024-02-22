@@ -29,6 +29,8 @@
         line-height: 1em;
         width: 80vw;
         margin-bottom: 35px;
+        /* background-color: blueviolet; */
+        z-index: 2;
     
     }
 
