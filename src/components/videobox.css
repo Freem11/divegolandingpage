@@ -6,11 +6,11 @@
   width: 32vh;
   height: 67vh;
   margin-left: 0px;
-  border-radius: 20vh;
+  border-radius: 50px;
   z-index: 5;
   background-color: purple;
   /* overflow: hidden; */
-  /* margin: 50px; */
+  margin-top: 6%;
 }
 
 .headervideo{
