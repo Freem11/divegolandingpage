@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap");
 
 body {
-  background-color: #add8e6;
+  background-color: powderblue;
   overflow-x: hidden;
   position: relative;
 }
@@ -135,7 +135,7 @@ top: 0;
     position: absolute;
     width: 100vw;
     height: 177.78vh;
-    max-height: 170vh;
+    max-height: 180vh;
   }
 
   .mainherovideo {
@@ -152,7 +152,7 @@ top: 0;
     top: 45px;
     width: 100vw;
     height: 177.78vh;
-    max-height: 150vh;
+    max-height: 180vh;
   }
 
   .leftTop {
@@ -163,8 +163,8 @@ top: 0;
     width: 100vw;
     height: 88.89vh;
     align-items: center;
-	justify-content: center;
-	padding-top: 5%;
+    justify-content: center;
+    padding-top: 5%;
     padding-bottom: 5%;
     z-index: 1;
     /* background-color: pink; */
@@ -181,15 +181,15 @@ top: 0;
     justify-content: center;
     z-index: 1;
     padding-top: 4%;
-	padding-bottom: 5%;
-	margin-bottom: -20%;
+    padding-bottom: 10%;
+    margin-bottom: -10%;
     background-color: powderblue;
   }
 
   .webshowsection {
     /* position: relative; */
     width: 100vw;
-    height: 80vw;
+    height: 100vw;
     z-index: 1;
     margin-top: 20%;
   }
@@ -243,13 +243,13 @@ top: 0;
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .topsection {
-	position: absolute;
-	top: -15px;
+    position: absolute;
+    top: -15px;
     width: 100vw;
     height: 177.78vh;
-    max-height: 115vh;
+    max-height: 125vh;
   }
 
   .mainherovideo {
@@ -266,7 +266,7 @@ top: 0;
     top: 30px;
     width: 100vw;
     height: 177.78vh;
-    max-height: 120vh;
+    max-height: 145vh;
   }
 
   .leftTop {
@@ -277,8 +277,8 @@ top: 0;
     width: 100vw;
     height: 88.89vh;
     align-items: center;
-	justify-content: center;
-	padding-top: 10%;
+    justify-content: center;
+    padding-top: 10%;
     padding-bottom: 5%;
     z-index: 1;
     /* background-color: pink; */
@@ -295,16 +295,16 @@ top: 0;
     justify-content: center;
     z-index: 1;
     padding-top: 7%;
-	padding-bottom: 10%;
-	margin-bottom: -20%;
+    padding-bottom: 15%;
+    margin-bottom: 30%;
     background-color: powderblue;
   }
 
   .webshowsection {
-	margin-top: 40%;
+    margin-top: 20%;
     padding-top: 5%;
     width: 100vw;
-    height: 100vw;
+    height: 130vw;
   }
 
   .joinusT {
@@ -355,134 +355,132 @@ top: 0;
 
 /* Mobile styles */
 @media only screen and (max-width: 320px) {
-	.topsection {
-	  position: absolute;
-	  top: -15px;
-	  width: 100vw;
-	  height: 177.78vh;
-	  max-height: 110vh;
-	}
-  
-	.mainherovideo {
-	  object-fit: cover;
-	  width: 100%;
-	  height: 80%;
-	}
-  
-	.switchBox {
-	  /* position: absolute; */
-	  display: flex;
-	  flex-direction: column;
-	  left: 0;
-	  top: 30px;
-	  width: 100vw;
-	  height: 177.78vh;
-	  max-height: 155vh;
-	}
-  
-	.leftTop {
-	  /* position: absolute; */
-	  left: 0;
-	  display: flex;
-	  flex-direction: column;
-	  width: 100vw;
-	  height: 88.89vh;
-	  align-items: center;
-	  justify-content: center;
-	  padding-top: 10%;
-	  padding-bottom: 5%;
-	  z-index: 1;
-	  /* background-color: pink; */
-	}
-  
-	.rightTop {
-	  /* position: relative; */
-	  left: 50vw;
-	  display: flex;
-	  flex-direction: column;
-	  height: 88.89vh;
-	  width: 100%;
-	  align-items: center;
-	  justify-content: center;
-	  z-index: 1;
-	  padding-top: 7%;
-	  padding-bottom: 20%;
-	  margin-bottom: -40%;
-	  background-color: powderblue;
-	}
-  
-	.webshowsection {
-	  margin-top: 40%;
-	  padding-top: 5%;
-	  width: 100vw;
-	  height: 100vw;
-	}
-  
+  .topsection {
+    position: absolute;
+    top: -15px;
+    width: 100vw;
+    height: 177.78vh;
+    max-height: 110vh;
   }
-  
+
+  .mainherovideo {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+  }
+
+  .switchBox {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 30px;
+    width: 100vw;
+    height: 177.78vh;
+    max-height: 155vh;
+  }
+
+  .leftTop {
+    /* position: absolute; */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 88.89vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    z-index: 1;
+    /* background-color: pink; */
+  }
+
+  .rightTop {
+    /* position: relative; */
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+    height: 88.89vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-top: 7%;
+    padding-bottom: 20%;
+    margin-bottom: -40%;
+    background-color: powderblue;
+  }
+
+  .webshowsection {
+    margin-top: 40%;
+    padding-top: 5%;
+    width: 100vw;
+    height: 150vw;
+  }
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 200px) {
-	.topsection {
-	  position: absolute;
-	  top: -15px;
-	  width: 100vw;
-	  height: 177.78vh;
-	  max-height: 110vh;
-	}
-  
-	.mainherovideo {
-	  object-fit: cover;
-	  width: 100%;
-	  height: 80%;
-	}
-  
-	.switchBox {
-	  /* position: absolute; */
-	  display: flex;
-	  flex-direction: column;
-	  left: 0;
-	  top: 30px;
-	  width: 100vw;
-	  height: 177.78vh;
-	  max-height: 160vh;
-	}
-  
-	.leftTop {
-	  /* position: absolute; */
-	  left: 0;
-	  display: flex;
-	  flex-direction: column;
-	  width: 100vw;
-	  height: 88.89vh;
-	  align-items: center;
-	  justify-content: center;
-	  padding-top: 10%;
-	  padding-bottom: 5%;
-	  z-index: 1;
-	  /* background-color: pink; */
-	}
-  
-	.rightTop {
-	  /* position: relative; */
-	  left: 50vw;
-	  display: flex;
-	  flex-direction: column;
-	  height: 88.89vh;
-	  width: 100%;
-	  align-items: center;
-	  justify-content: center;
-	  z-index: 1;
-	  padding-top: 7%;
-	  padding-bottom: 20%;
-	  margin-bottom: -40%;
-	  background-color: powderblue;
-	}
-  
-	.webshowsection {
-	  margin-top: 40%;
-	  padding-top: 5%;
-	  width: 100vw;
-	  height: 100vw;
-	}
-  
+  .topsection {
+    position: absolute;
+    top: -15px;
+    width: 100vw;
+    height: 177.78vh;
+    max-height: 110vh;
   }
+
+  .mainherovideo {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+  }
+
+  .switchBox {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 30px;
+    width: 100vw;
+    height: 177.78vh;
+    max-height: 160vh;
+  }
+
+  .leftTop {
+    /* position: absolute; */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 88.89vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    z-index: 1;
+    /* background-color: pink; */
+  }
+
+  .rightTop {
+    /* position: relative; */
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+    height: 88.89vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-top: 7%;
+    padding-bottom: 20%;
+    margin-bottom: -40%;
+    background-color: powderblue;
+  }
+
+  .webshowsection {
+    margin-top: 40%;
+    padding-top: 5%;
+    width: 100vw;
+    height: 205vw;
+  }
+}
