@@ -3,8 +3,8 @@
 .housing {
   display: flex;
   flex-direction: row;
-  height: 45px;
-  width: 150px;
+  height: 10vw;
+  width: 20vw;
   background-color: black;
   border-radius: 10px;
   align-items: center;
@@ -61,20 +61,20 @@
   }
 
 .appleimg {
-  height: 80px;
-    width: 210px;
+  height: 10wv;
+    width: 20vw;
     /* background-color: indigo; */
 }
 
 .googleimg {
-  height: 80px;
-  width: 210px;
+  height: 10wv;
+    width: 20vw;
   /* background-color: khaki; */
   }
 
   .mantaimg{
-    height: 80px;
-    width: 210px;
+    height: 10wv;
+    width: 20vw;
     /* background-color: lawngreen; */
   }
 
@@ -135,18 +135,21 @@
 }
 
 .appleimg {
-  height: 40px;
-  width: 130px;
+  height: 15wv;
+    width: 30vw;
+    /* background-color: indigo; */
 }
 
 .googleimg {
-    height: 40px;
-    width: 130px;
+  height: 15wv;
+    width: 30vw;
+  /* background-color: khaki; */
   }
 
   .mantaimg{
-    height: 40px;
-    width: 130px;
+    height: 15wv;
+    width: 30vw;
+    /* background-color: lawngreen; */
   }
 
   .recruitimg{

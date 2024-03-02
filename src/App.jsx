@@ -14,6 +14,9 @@ import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
 import WebVidPlayer from "./components/WebVidPlayer";
 import heroVid from "./images/heroCompressed.mp4";
+import MantaCTAButton from "./components/MantaCTAButton";
+import AppleCTAButton from "./components/AppleCTAButton";
+import GoogleCTAButton from "./components/GoogleCTAButton";
 import "./App.css";
 import ReactPlayer from "react-player/youtube";
 
@@ -98,6 +101,11 @@ function App() {
         <h2 style={{ fontFamily: "Overlock, cursive", marginBottom: "4vh", fontSize: 'calc(2px + 2.5vw)' }}>
             Try Scuba SEASons! (Web Version) 
           </h2>
+        <div className="ctaDiv">
+          <AppleCTAButton />
+          <GoogleCTAButton />
+          <MantaCTAButton />
+        </div>
           <iframe frameBorder="0" style={{width: "80%", height: "85vh", borderRadius: "1%", marginBottom: '2vh'}} src="https://scubaseasons.netlify.app/">
           </iframe>
           {/* <WebVidPlayer /> */}
