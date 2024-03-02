@@ -91,6 +91,13 @@ top: 0;
   /* position: static; */
 }
 
+.iFrameStyle{
+  width: 80%;
+  height: 85vh;
+  border-radius: 1%;
+  margin-bottom: 2vh;
+}
+
 .whyvideosection {
   display: flex;
   flex-wrap: wrap;
@@ -192,6 +199,13 @@ top: 0;
     height: 100vw;
     z-index: 1;
     margin-top: 20%;
+  }
+
+  .iFrameStyle{
+    width: 100%;
+    height: 85vh;
+    border-radius: 1%;
+    margin-bottom: 2vh;
   }
 
   .headLineBox {

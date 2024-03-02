@@ -106,7 +106,7 @@ function App() {
           <GoogleCTAButton />
           <MantaCTAButton />
         </div>
-          <iframe frameBorder="0" style={{width: "80%", height: "85vh", borderRadius: "1%", marginBottom: '2vh'}} src="https://scubaseasons.netlify.app/">
+          <iframe frameBorder="0" className="iFrameStyle" src="https://scubaseasons.netlify.app/">
           </iframe>
           {/* <WebVidPlayer /> */}
         </div>
