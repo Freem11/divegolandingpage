@@ -13,7 +13,7 @@ import CallToActionsB from "./components/callToActionsB";
 import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
 import WebVidPlayer from "./components/WebVidPlayer";
-import heroVid from "./images/heroCompressed.mp4";
+import heroVid from "./images/heroVid2024.mp4";
 import MantaCTAButton from "./components/MantaCTAButton";
 import AppleCTAButton from "./components/AppleCTAButton";
 import GoogleCTAButton from "./components/GoogleCTAButton";
