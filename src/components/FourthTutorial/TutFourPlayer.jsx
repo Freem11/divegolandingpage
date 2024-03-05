@@ -38,7 +38,7 @@ function TutFourPlayer() {
   return (
     <div className="videoboxMini">
       <ReactPlayer
-            url="https://youtu.be/6wz4veGTkP8"
+            url="https://youtu.be/tJu2mbhQQLs"
             width={vidWidth}
             height={vidHeigth}
             controls={true}

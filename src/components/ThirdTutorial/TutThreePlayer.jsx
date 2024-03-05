@@ -38,7 +38,7 @@ function TutThreePlayer() {
   return (
     <div className="videoboxMini">
        <ReactPlayer
-            url="https://youtu.be/OsD_6MVcXI4"
+            url="https://youtu.be/tBx_f1MSUtk"
             width={vidWidth}
             height={vidHeigth}
             controls={true}
